@@ -1,11 +1,8 @@
 package ru.kata.spring.boot_security.demo.models;
 
 import jakarta.persistence.*;
-import jakarta.validation.constraints.NotEmpty;
 
-import java.util.HashSet;
-import java.util.Objects;
-import java.util.Set;
+import java.util.*;
 
 @Entity
 @Table(name = "users")

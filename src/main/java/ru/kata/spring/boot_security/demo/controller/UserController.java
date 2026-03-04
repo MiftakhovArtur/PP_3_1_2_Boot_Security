@@ -1,13 +1,9 @@
 package ru.kata.spring.boot_security.demo.controller;
 
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.servlet.ModelAndView;
-import ru.kata.spring.boot_security.demo.services.UserService;
+import org.springframework.stereotype.*;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.*;
+import ru.kata.spring.boot_security.demo.services.*;
 
 @Controller
 public class UserController {

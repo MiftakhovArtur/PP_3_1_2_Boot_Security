@@ -1,10 +1,9 @@
 package ru.kata.spring.boot_security.demo.until;
 
-import org.springframework.stereotype.Component;
-import org.springframework.validation.Errors;
-import org.springframework.validation.Validator;
+import org.springframework.stereotype.*;
+import org.springframework.validation.*;
 
-import java.util.List;
+import java.util.*;
 
 @Component
 public class RoleValidator implements Validator {

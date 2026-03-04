@@ -1,12 +1,11 @@
-package ru.kata.spring.boot_security.demo.Security;
+package ru.kata.spring.boot_security.demo.models;
 
-import org.springframework.security.core.GrantedAuthority;
-import org.springframework.security.core.authority.SimpleGrantedAuthority;
-import org.springframework.security.core.userdetails.UserDetails;
-import ru.kata.spring.boot_security.demo.models.User;
+import org.springframework.security.core.*;
+import org.springframework.security.core.authority.*;
+import org.springframework.security.core.userdetails.*;
 
-import java.util.Collection;
-import java.util.stream.Collectors;
+import java.util.*;
+import java.util.stream.*;
 
 
 public class PersonDetails implements UserDetails {
@@ -55,7 +54,7 @@ public class PersonDetails implements UserDetails {
         return true;
     }
 
-    public User getPersson(){
+    public User getPersson() {
         return this.user;
     }
 }
