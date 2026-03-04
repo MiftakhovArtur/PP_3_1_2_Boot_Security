@@ -1,10 +1,10 @@
 package ru.kata.spring.boot_security.demo.repository;
 
-import jakarta.persistence.*;
-import org.springframework.stereotype.*;
-import ru.kata.spring.boot_security.demo.models.*;
-
-import java.util.*;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.PersistenceContext;
+import java.util.List;
+import org.springframework.stereotype.Repository;
+import ru.kata.spring.boot_security.demo.models.User;
 
 @Repository
 public class UserRepositoryImpl implements UserRepository {

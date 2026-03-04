@@ -1,8 +1,7 @@
 package ru.kata.spring.boot_security.demo.repository;
 
-import ru.kata.spring.boot_security.demo.models.*;
-
-import java.util.*;
+import java.util.List;
+import ru.kata.spring.boot_security.demo.models.Role;
 
 public interface RoleRepository {
     void save(Role role);
